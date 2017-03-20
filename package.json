@@ -1,0 +1,20 @@
+{
+  "name": "NodeLearn",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "grunt build"
+  },
+  "dependencies": {
+    "express": "3.2.6",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-uglify": "^2.2.0",
+    "istanbul": "^0.4.5",
+    "jade": "*",
+    "mocha": "^3.2.0",
+    "should": "^11.2.0"
+  }
+}
