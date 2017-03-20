@@ -2,7 +2,7 @@
  *
  */
 var should = require("should");
-var UnitTest = require('../gw/UnitTest');
+var UnitTest = require('../lw/UnitTest');
 
 
 
