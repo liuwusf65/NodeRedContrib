@@ -1,0 +1,12 @@
+[2017-04-15 19:56:22.754] [ERROR] http - Some debug messages
+[2017-04-15 19:56:22.758] [FATAL] http - Some debug messages
+[2017-04-15 19:58:22.584] [ERROR] logger - Some debug messages
+[2017-04-15 19:58:22.584] [FATAL] logger - Some debug messages
+[2017-04-15 20:01:44.412] [ERROR] demo - Some debug messages
+[2017-04-15 20:01:44.412] [FATAL] demo - Some debug messages
+[2017-04-15 20:18:47.131] [ERROR] demo - Some debug messages
+[2017-04-15 20:18:47.131] [FATAL] demo - Some debug messages
+[2017-04-15 20:19:11.648] [ERROR] demo - Some debug messages
+[2017-04-15 20:19:11.648] [FATAL] demo - Some debug messages
+[2017-04-15 20:20:02.217] [ERROR] demo - Some debug messages
+[2017-04-15 20:20:02.217] [FATAL] demo - Some debug messages

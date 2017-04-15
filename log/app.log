@@ -1,0 +1,8 @@
+[2017-04-15 20:19:11.648] [ERROR] demo - Some debug messages
+[2017-04-15 20:19:11.648] [FATAL] demo - Some debug messages
+[2017-04-15 20:20:02.213] [TRACE] demo - Some debug messages
+[2017-04-15 20:20:02.216] [INFO] demo - Some debug messages
+[2017-04-15 20:20:02.217] [DEBUG] demo - Some debug messages
+[2017-04-15 20:20:02.217] [WARN] demo - Some debug messages
+[2017-04-15 20:20:02.217] [ERROR] demo - Some debug messages
+[2017-04-15 20:20:02.217] [FATAL] demo - Some debug messages
