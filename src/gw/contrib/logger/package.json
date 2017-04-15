@@ -1,8 +1,8 @@
 {
-  "name": "node-red-contrib-logger",
+  "name": "node-red-contrib-log4js",
   "version": "1.0.0",
   "description": "The Log4js For Node-Red",
-  "main": "logger.js",
+  "main": "log4js.js",
   "dependencies": {
   	"log4js": "^1.1.1"
    },
@@ -11,7 +11,7 @@
   ],
   "node-red":{
         "nodes": {
-            "node-red-contrib-logger": "logger.js"
+            "node-red-contrib-logger": "log4js.js"
         }
    },
   "author": "liuwu",

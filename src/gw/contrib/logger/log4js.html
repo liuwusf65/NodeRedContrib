@@ -21,31 +21,18 @@
 
 <!-- First, the content of the edit dialog is defined.                       -->
 
-<script type="text/x-red" data-template-name="sample">
-   <!-- data-template-name identifies the node type this is for              -->
-
-   <!-- Each of the following divs creates a field in the edit dialog.       -->
-   <!-- Generally, there should be an input for each property of the node.   -->
-   <!-- The for and id attributes identify the corresponding property        -->
-   <!-- (with the 'node-input-' prefix).                                     -->
-   <!-- The available icon classes are defined Font Awesome Icons (FA Icons) -->
+<script type="text/x-red" data-template-name="log4js">
     <div class="form-row">
-        <label for="node-input-topic"><i class="fa fa-tasks"></i> Topic</label>
-        <input type="text" id="node-input-topic" placeholder="Topic">
+        <label for="node-input-category"><i class="fa fa-tasks"></i> Category</label>
+        <input type="text" id="node-input-category" placeholder="Category">
     </div>
 
     <br/>
-    <!-- By convention, most nodes have a 'name' property. The following div -->
-    <!-- provides the necessary field. Should always be the last option      -->
-    <div class="form-row">
-        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
-        <input type="text" id="node-input-name" placeholder="Name">
-    </div>
 </script>
 
 
 <!-- Next, some simple help text is provided for the node.                   -->
-<script type="text/x-red" data-help-name="sample">
+<script type="text/x-red" data-help-name="log4js">
    <!-- data-help-name identifies the node type this help is for             -->
    <!-- This content appears in the Info sidebar when a node is selected     -->
    <!-- The first <p> is used as the pop-up tool tip when hovering over a    -->
@@ -60,18 +47,17 @@
 <!-- The example below shows a small subset of the properties that can be set-->
 <script type="text/javascript">
     RED.nodes.registerType('log4js',{
-        category: 'input',      // the palette category
+        category: 'output',      // the palette category
+        color: '#B2EBF2',
+        align: "right",
         defaults: {             // defines the editable properties of the node
-            name: {value:""},   //  along with default values.
-            topic: {value:"", required:true}
+        	category: {value:"",required:true}   //  along with default values.
         },
-        inputs:1,               // set the number of inputs - only 0 or 1
-        outputs:1,              // set the number of outputs - 0 to n
+        inputs:0,               // set the number of inputs - only 0 or 1
+        outputs:0,              // set the number of outputs - 0 to n
         // set the icon (held in icons dir below where you save the node)
         icon: "file.png",     // saved in  icons/myicon.png
-        label: function() {     // sets the default label contents
-            return this.name||this.topic||"log4js";
-        },
+        label: "log4js",
         labelStyle: function() { // sets the class to apply to the label
             return this.name?"node_label_italic":"";
         }
